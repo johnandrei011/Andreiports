@@ -13,7 +13,7 @@ function Header() {
           <p className="profile-desc">
             Passionate about web development, problem solving, and building useful applications.<br />
             <span className="profile-small">
-              3rd Year BS Computer Science • Future Full Stack Developer
+              3rd Year BS Computer Science • Future Backend Developer
             </span>
           </p>
           <a href="#projects">
@@ -22,7 +22,7 @@ function Header() {
         </div>
       </div>
       <div className="profile-photo">
-        <img src="/profile.jpg" alt="John Andrei Cabrera" className="profile-img" />
+        <img src="/profile.png" alt="John Andrei Cabrera" className="profile-img" />
       </div>
     </div>
   );
