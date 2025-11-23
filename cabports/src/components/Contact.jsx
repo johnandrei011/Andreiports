@@ -2,36 +2,39 @@ import React from "react";
 
 function Contact() {
   return (
-    <section id="contact">
+    <section id="contact" className="contact-section">
       <h2>Contact</h2>
-      <p>
-        Email:{" "}
-        <a className="link" href="mailto:johnandreicabrera@example.com">
+      <div className="contact-row">
+        <label>Email:</label>
+        <a
+          className="contact-link"
+          href="mailto:johnandreicabrera011@gmail.com"
+        >
           johnandreicabrera011@gmail.com
         </a>
-      </p>
-      <p>
-        LinkedIn:{" "}
+      </div>
+      <div className="contact-row">
+        <label>LinkedIn:</label>
         <a
-          className="link"
-          href="https://www.linkedin.com"
+          className="contact-link"
+          href="https://www.linkedin.com/in/john-andrei-cabrera"
           target="_blank"
           rel="noreferrer"
         >
           linkedin.com/in/john-andrei-cabrera
         </a>
-      </p>
-      <p>
-        GitHub:{" "}
+      </div>
+      <div className="contact-row">
+        <label>GitHub:</label>
         <a
-          className="link"
-          href="https://github.com/johnandrei011/StudentPortfolio.github.io"
+          className="contact-link"
+          href="https://github.com/johnandreicabrera"
           target="_blank"
           rel="noreferrer"
         >
           github.com/johnandreicabrera
         </a>
-      </p>
+      </div>
     </section>
   );
 }
