@@ -13,13 +13,13 @@ const projects = [
     tech: ["HTML", "CSS", "JavaScript"],
     link: "#"
   },
-  {
-    title: "Algorithm Visualizer",
-    description:
-      "A tool to visualize basic algorithms such as sorting and searching for learning purposes.",
-    tech: ["React", "Data Structures", "Algorithms"],
-    link: "#"
-  }
+ {
+  title: "E-Commerce Store",
+  description: "A complete online shopping platform with product browsing, dynamic cart, checkout, order management, and an admin dashboard for inventory. Includes secure authentication and integrated payment processing.",
+  tech: ["React", "JavaScript", "CSS",],
+  link: "#"
+}
+
 ];
 
 export default projects;
